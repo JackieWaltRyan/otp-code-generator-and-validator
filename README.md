@@ -10,7 +10,7 @@ $ npm install otp-code-generator-and-validator
 
 ## Usage
 
-### Generate Secret
+## Generate Secret
 
 ```javascript
 import {generateSecret} from "otp-code-generator-and-validator";
@@ -24,7 +24,7 @@ console.log(secret); // IGJZFST44NAHVVXT
 
 - Returns: \<string> 16 character setup key.
 
-### Generate Token
+## Generate Token
 
 ```javascript
 import {generateTOTP} from "otp-code-generator-and-validator";
@@ -53,7 +53,7 @@ console.log(tokens); // {previous: "608121", current: "394406", next: "714744"}
 - `timeStep` [optional] \<number> Token change time in seconds. **Default:** `30`.
 - Returns: \<number> 6 digit token.
 
-### Verify Token
+## Verify Token
 
 ```javascript
 import {verifyTOTP} from "otp-code-generator-and-validator";
@@ -74,7 +74,7 @@ console.log(verify); // true | false
 - `timeStep` [optional] \<number> Token change time in seconds. **Default:** `30`.
 - Returns: \<boolean> true | false.
 
-### Generate URL
+## Generate URL
 
 ```javascript
 import {generateKeyUri} from "otp-code-generator-and-validator";
@@ -95,7 +95,7 @@ console.log(url); // otpauth://totp/Account%20Name?secret=IGJZFST44NAHVVXT&algor
 - `timeStep` [optional] \<number> Token change time in seconds. **Default:** `30`.
 - Returns: \<string> A link that can be opened by authentication apps.
 
-### Generate QR Code
+## Generate QR Code
 
 ```javascript
 import {generateQRCode} from "otp-code-generator-and-validator";

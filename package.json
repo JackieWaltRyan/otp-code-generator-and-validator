@@ -53,8 +53,7 @@
         "HMAC"
     ],
     "scripts": {
-        "build": "tsc && tsc-alias",
-        "publish": "npm version patch && npm publish"
+        "build": "tsc && tsc-alias"
     },
     "dependencies": {
         "crypto-js": "^4.2.0",
