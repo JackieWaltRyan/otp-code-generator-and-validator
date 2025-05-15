@@ -1,0 +1,72 @@
+{
+    "name": "otp-code-generator-and-validator",
+    "version": "1.0.0",
+    "description": "Generate and validate time-based OTP (one time password) for multifactor authentication.",
+    "type": "module",
+    "engines": {
+        "node": ">=22.15.0"
+    },
+    "exports": {
+        "default": "./lib/index.js",
+        "types": "./lib/index.d.ts"
+    },
+    "types": "./lib/index.d.ts",
+    "sideEffects": false,
+    "files": [
+        "lib"
+    ],
+    "module": "./lib/index.js",
+    "private": false,
+    "license": "GNU GPLv3",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/JackieWaltRyan/otp-code-generator-and-validator.git"
+    },
+    "author": {
+        "name": "Corentin Th",
+        "email": "corentin.thomasset74+it-tools@gmail.com",
+        "url": "https://github.com/CorentinTh"
+    },
+    "contributors": [
+        {
+            "name": "Jackie Walt Ryan",
+            "email": "jackiewaltryan@gmail.com",
+            "url": "https://github.com/JackieWaltRyan"
+        }
+    ],
+    "homepage": "https://github.com/JackieWaltRyan/otp-code-generator-and-validator",
+    "keywords": [
+        "otp",
+        "code",
+        "generator",
+        "validator",
+        "one",
+        "time",
+        "password",
+        "authentication",
+        "MFA",
+        "mobile",
+        "device",
+        "security",
+        "TOTP",
+        "Time",
+        "HMAC"
+    ],
+    "scripts": {
+        "build": "tsc && tsc-alias",
+        "publish": "npm version patch && npm publish"
+    },
+    "dependencies": {
+        "crypto-js": "^4.2.0",
+        "lodash": "^4.17.21",
+        "qrcode": "^1.5.4"
+    },
+    "devDependencies": {
+        "@types/crypto-js": "^4.2.2",
+        "@types/lodash": "^4.17.16",
+        "@types/node": "^22.15.18",
+        "@types/qrcode": "^1.5.5",
+        "tsc-alias": "^1.8.16",
+        "typescript": "^5.5.3"
+    }
+}
