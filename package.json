@@ -1,6 +1,6 @@
 {
     "name": "otp-code-generator-and-validator",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Generate and validate time-based OTP (one time password) for multifactor authentication.",
     "type": "module",
     "engines": {
