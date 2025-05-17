@@ -130,4 +130,5 @@ console.log(code); // data:image/png;base64,iVBORw0KGg...0lAlwyn0==
 # Donating
 
 If you find useful this package, please consider the opportunity to donate:
+
 See [GitHub Funding](https://github.com/JackieWaltRyan/otp-code-generator-and-validator) or [My Site](https://jackiewaltryan.top).
