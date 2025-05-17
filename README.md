@@ -126,3 +126,8 @@ console.log(code); // data:image/png;base64,iVBORw0KGg...0lAlwyn0==
 ```
 
 - Returns: Promise\<string> Data URI containing a representation of the QR Code image.
+
+# Donating
+
+If you find useful this package, please consider the opportunity to donate:
+See [GitHub Funding](https://github.com/JackieWaltRyan/otp-code-generator-and-validator) or [My Site](https://jackiewaltryan.top).
